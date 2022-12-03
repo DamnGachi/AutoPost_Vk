@@ -5,5 +5,5 @@ filename = 'a.jpg' # фотография которую хотите загру
 
 load_dotenv()
 
-login = os.getenv('LOGIN')
-password = os.getenv('PASSWORD')
+login = os.getenv('') # ваш логин
+password = os.getenv('') # ваш пароль
