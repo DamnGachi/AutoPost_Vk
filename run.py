@@ -15,8 +15,7 @@ working = True
 def post_vk(post):
     now = datetime.now()
     current_time = now.strftime("%H:%M")
-    sent_every_time = 5
-    print(current_time)
+    sent_every_time = 7200 # можете поставить каждый час или каждые два часа
 
     upload_url = vk.photos.getWallUploadServer(group_id=217316654)['upload_url']
 
