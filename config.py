@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 text = ''  # описание 
-filename = 'a.jpg' # фотография которую хотите загрузить
+filename = '' # фотография которую хотите загрузить
 
 load_dotenv()
 
